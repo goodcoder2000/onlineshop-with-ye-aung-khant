@@ -1,13 +1,101 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;500&family=Nunito:wght@200&family=Roboto:wght@300&display=swap');
+body{
+    background-color: rgb(173, 221, 17);
 }
+.app{
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+h1{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+}
+h2{
+    font-family: 'Roboto';
+}
+.nav{
+    background-color: #4895EF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 35px;
+    border-radius: 7px;
+}
+a{
+    text-decoration: none;
+}
+.menuBtn{
+    background-color: #7209B7;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    margin: 0 20px;
+}
+.searchbar{
+    background-color: #4CC9F0;
+    height: 100px;
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.searchInput{
+    width: 400px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.allproduct{
+    padding: 15px 40px;
+}
+.imgController{
+    width: 100%;
+    height: 200px;
+}
+.allproductItem,
+.allFindItem{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.eachItem{
+    background-color: #72EFDD;
+    margin: 10px;
+    width: 200px;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+.eachItem:hover{
+    transform: rotate(-8deg);
+    box-shadow: 1px 1px 3px #333;
+}
+.addBtn{
+    padding: 8px 10px;
+    background-color: rgb(166, 197, 26);
+    border-radius: 8px;
+}
+.detailsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+
+}
+.left{
+   /* width: 300px; */
+}
+.detailsImg{
+    width: 50%;
+}
+.details{
+    width: 60%;
+    padding: 15px 20px;
+    margin: 20px auto;
+    background-color: #72EFDD;
+    border-radius: 5px;
 }
